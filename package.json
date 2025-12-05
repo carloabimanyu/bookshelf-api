@@ -4,6 +4,7 @@
   "description": "\"Web Service that can create, read, update, and delete books. This is final project of Belajar Back-End Pemule dengan JavaScript at Dicoding.\"",
   "main": "index.js",
   "scripts": {
+    "start": "node ./src/server.js",
     "start:dev": "nodemon ./src/server.js",
     "lint": "eslint ./src/"
   },
@@ -29,5 +30,9 @@
     "eslint-config-dicodingacademy": "^0.9.5",
     "globals": "^16.5.0",
     "nodemon": "^3.1.11"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.4.4",
+    "nanoid": "^3.3.11"
   }
 }
