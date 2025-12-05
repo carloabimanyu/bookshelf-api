@@ -1,0 +1,33 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "\"Web Service that can create, read, update, and delete books. This is final project of Belajar Back-End Pemule dengan JavaScript at Dicoding.\"",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon ./src/server.js",
+    "lint": "eslint ./src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloabimanyu/bookshelf-api.git"
+  },
+  "keywords": [
+    "hapi",
+    "api",
+    "backend",
+    "server"
+  ],
+  "author": "Carlo Abimanyu <carloabimanyu11@gmail.com> (https://github.com/carloabimanyu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carloabimanyu/bookshelf-api/issues"
+  },
+  "homepage": "https://github.com/carloabimanyu/bookshelf-api#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "eslint-config-dicodingacademy": "^0.9.5",
+    "globals": "^16.5.0",
+    "nodemon": "^3.1.11"
+  }
+}
